@@ -1,0 +1,36 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+        parser.h
+        bmp_worker.h
+        filter_desc.h
+        base_filter.h
+        bmp_worker.cpp
+        negative_filter.h
+        matrix_filter.h
+        grayscale_filter.h
+        negative_filter.cpp
+        grayscale_filter.cpp
+        crop_filter.h
+        crop_filter.cpp
+        pipeline.h
+        pipeline.cpp
+        filter_factory.h
+        filter_factory.cpp
+        application.h
+        application.cpp
+        sharp_filter.h
+        sharp_filter.cpp
+        parser.cpp
+        edge_filter.h
+        edge_filter.cpp
+        gauss_blur_filter.h
+        gauss_blur_filter.cpp
+        crystalize_filter.h
+        crystalize_filter.cpp
+        filter_errors.h
+        helper.h
+        helper.cpp
+        filter_creator.h
+        filter_creator.cpp
+)
